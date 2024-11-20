@@ -1,0 +1,14 @@
+{
+  "extends": "../package/tsconfig",
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types",
+      "@types"
+    ],
+    "paths": {
+      "react-native-vision-camera": ["../package/src/index"]
+    }
+  },
+  "include": ["src", "index.js"],
+  "exclude": ["node_modules"]
+}
