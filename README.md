@@ -1,1 +1,1 @@
-gotcha app
+gotcha app by react-native-vision-camera
